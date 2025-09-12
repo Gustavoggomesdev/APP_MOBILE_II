@@ -5,7 +5,6 @@ import '../DesignSystem/Samples/inputFieldSampleScreen/input_field_sample_screen
 import '../DesignSystem/Samples/linkedLabelSampleScreen/linked_label_sample_screen.dart';
 import '../DesignSystem/Samples/tabComponentSampleScreen/tab_sample_screen.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
