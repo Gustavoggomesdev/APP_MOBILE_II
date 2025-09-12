@@ -8,7 +8,6 @@ class BottomTabBarPage extends StatefulWidget {
   @override
   State<BottomTabBarPage> createState() => _BottomTabBarPageState();
 }
-
 class _BottomTabBarPageState extends State<BottomTabBarPage> {
   int actualIndex = 0;
 
@@ -20,7 +19,6 @@ class _BottomTabBarPageState extends State<BottomTabBarPage> {
       const Center(child: Text('Label Page')),
       const Center(child: Text('Profile Page')),
     ];
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bottom Tab Bar Page'),
