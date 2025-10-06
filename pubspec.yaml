@@ -1,0 +1,31 @@
+name: designsystem_sample_app
+description: Sample Flutter app demonstrating a Design System.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.0.0
+  flutter_svg: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # Se preferir embutir Montserrat localmente, adicione os arquivos em assets/fonts/ e descomente a seção abaixo.
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: assets/fonts/Montserrat-ExtraBold.ttf
+  #         weight: 800
+  #       - asset: assets/fonts/Montserrat-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Montserrat-SemiBold.ttf
+  #         weight: 600
